@@ -2,11 +2,13 @@ export const ProjectLang = {
   ru: {
     beforeTitle: 'Посетите мое портфолио',
     title: 'Мое Портфолио',
-    hover: 'Смотреть',
+    hoverWeb: 'Смотреть Web',
+    hoverCode: 'Смотреть Код',
   },
   en: {
     beforeTitle: 'Visit my portfolio',
     title: 'My Portfolio',
-    hover: 'View',
+    hoverWeb: 'View Web',
+    hoverCode: 'View Code',
   },
 }
