@@ -2,12 +2,11 @@ import { Link } from 'react-scroll'
 import { LanguageType } from '../../../App'
 import { LinkModern } from '../../../components/link/LinkModern'
 import { SocialsData } from '../../../data/socials'
-import { AboutMeLang } from '../../../langs/lang'
 import { ToUpIcon } from '../../../utilities/icons'
 import './Footer.scss'
+import { WeatherDateInfo } from '../../../components/WeatherDateInfo/WeatherDateInfo'
 
 export const Footer = ({ language }: { language: LanguageType }) => {
-  const Lang = AboutMeLang[language]
   const Data = SocialsData
 
   return (
@@ -24,8 +23,8 @@ export const Footer = ({ language }: { language: LanguageType }) => {
           )
         })}
       </ul>
-      <span className="footer__rights">
-        © {new Date().getFullYear()} {Lang.reserved} vitalyvitmens
+      <span>
+        <WeatherDateInfo />
       </span>
       <Link to="main" smooth={true} className="footer__to-up">
         <img src={ToUpIcon} alt="to-up" />

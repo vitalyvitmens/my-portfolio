@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedinIcon, TelegramIcon } from '../utilities/icons'
+import { GithubIcon, VKIcon, TelegramIcon } from '../utilities/icons'
 
 export const SocialsData = [
   {
@@ -8,7 +8,7 @@ export const SocialsData = [
   },
   {
     title: 'VK',
-    icon: LinkedinIcon,
+    icon: VKIcon,
     link: 'https://vk.com/id194055771',
   },
   {

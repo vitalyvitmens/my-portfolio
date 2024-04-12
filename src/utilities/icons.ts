@@ -3,7 +3,7 @@ import SwimmingIcon from './../assets/images/icons/person-swimming.png';
 import BicycleIcon from './../assets/images/icons/bicycle-emoji.png';
 import TechnologystIcon from './../assets/images/icons/man-technologyst.png';
 import GithubIcon from './../assets/svg/github.svg';
-import LinkedinIcon from './../assets/svg/linkedin.svg';
+import VKIcon from './../assets/svg/vk.svg';
 import TelegramIcon from './../assets/svg/telegram.svg';
 import WhatsappIcon from './../assets/svg/whatsapp.svg';
 import ToUpIcon from './../assets/svg/to-up.svg';
@@ -33,7 +33,7 @@ export {
 	BicycleIcon,
 	TechnologystIcon,
 	GithubIcon,
-	LinkedinIcon,
+	VKIcon,
 	TelegramIcon,
 	WhatsappIcon,
 	ToUpIcon,
