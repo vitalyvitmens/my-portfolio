@@ -12,7 +12,7 @@ export const ProjectData = [
     title: 'News Blog',
     image: NewsBlogImg,
     description:
-      'Full Stack, React JS, Styled Components, Redux, MongoDB, Express, Mongoose',
+      'React JS, CRA, Redux, React Router 6, Node JS, Express, MongoDB, Mongoose, Styled Components',
     linkWeb: 'http://45.89.190.180/',
     linkCode: 'https://github.com/vitalyvitmens/news-blog',
   },
@@ -20,14 +20,15 @@ export const ProjectData = [
     title: 'Social Post',
     image: SocialPostImg,
     description:
-      'Full Stack, React JS, Styled Components, Redux, MongoDB, Express, Mongoose',
+      'React JS, CRA, Redux, React Router 6, Node JS, Express, MongoDB, Mongoose, Styled Components',
     linkWeb: 'http://92.63.177.60/',
     linkCode: 'https://github.com/vitalyvitmens/socialpost',
   },
   {
     title: 'Todo',
     image: TodoImg,
-    description: 'TypeScript, Vite, PWA, Service Workers, Dexie',
+    description:
+      'React TS, Vite, Lazy, React Router 6, PWA, Service Workers, Dexie, CSS Modules, Mantine',
     linkWeb: 'https://vitalyvitmens.github.io/rs-react-todo/',
     linkCode: 'https://github.com/vitalyvitmens/rs-react-todo',
   },
@@ -35,7 +36,7 @@ export const ProjectData = [
     title: 'Contact Book',
     image: ContactBookImg,
     description:
-      'React, hook, useState, LocalStorage, multi language clean css. To display pictures, turn on VPN',
+      'React JS, Vite, Redux Toolkit, RTK Query, React Router 6, Axios, Bootstrap. Turn on VPN',
     linkWeb:
       'https://vitalyvitmens.github.io/rs-redux-toolkit-rtk-query-contacts/',
     linkCode:
@@ -45,7 +46,7 @@ export const ProjectData = [
     title: 'Rick and Morty',
     image: RickAndMortyImg,
     description:
-      'React, hook, useState, LocalStorage, multi language clean css, and more.',
+      'React JS, CRA, Lazy, React Router 6, PWA, Service Workers, Firebase, Axios, CSS Modules',
     linkWeb: 'https://rickandmorty-c6ac8.web.app/',
     linkCode: 'https://github.com/vitalyvitmens/rs-react-optimization-PWA',
   },
@@ -53,7 +54,7 @@ export const ProjectData = [
     title: 'Forms',
     image: FormsImg,
     description:
-      'React, Redux, API requests, clean css, axios, thunks, and more.',
+      'React JS, CRA, Custom Form, Custom Input, Custom Select, Custom Button, GH Pages, CSS Modules',
     linkWeb: 'https://vitalyvitmens.github.io/rs-forms/',
     linkCode: 'https://github.com/vitalyvitmens/rs-forms',
   },
@@ -61,7 +62,7 @@ export const ProjectData = [
     title: 'Crypto Initial',
     image: CryptoInitialImg,
     description:
-      'React, Redux, API requests, clean css, axios, thunks, and more.',
+      'React TS, Vite, React Router 6, Eslint, Modal, Diagrams, GH Pages, Ant Design',
     linkWeb: 'https://vitalyvitmens.github.io/react-crypto-initial/',
     linkCode: 'https://github.com/vitalyvitmens/react-crypto-initial',
   },
@@ -69,7 +70,7 @@ export const ProjectData = [
     title: 'My Portfolio',
     image: MyPortfolioImg,
     description:
-      'React, hook, useState, LocalStorage, multi language clean css, and more.',
+      'React TS, CRA, React lazyload, React Scroll, React Awesome Reveal, Axios, Formik, GH Pages, SCSS',
     linkWeb: '',
     linkCode: 'https://github.com/vitalyvitmens/my-portfolio',
   },
