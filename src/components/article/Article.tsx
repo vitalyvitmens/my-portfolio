@@ -4,14 +4,21 @@ import { PhotoSkeleton } from '../skeletons/PhotoSkeleton/PhotoSkeleton'
 import './Article.scss'
 
 type PaperPropsType = {
-  view: string
+  viewWeb: string
+  viewCode: string
   children?: ReactNode
   image: string
   title: string
-  link?: string
+  linkWeb?: string
+  linkCode?: string
 }
 
-export const Article = ({ children, link = '/', ...props }: PaperPropsType) => {
+export const Article = ({
+  children,
+  linkWeb = '/',
+  linkCode = '/',
+  ...props
+}: PaperPropsType) => {
   return (
     <article className="article">
       <div className="article__image">
@@ -21,12 +28,20 @@ export const Article = ({ children, link = '/', ...props }: PaperPropsType) => {
           </LazyLoad>
         </PhotoSkeleton>
         <a
-          href={link}
+          href={linkWeb}
           rel="noopener noreferrer"
           target={'_blank'}
           className="article__button"
         >
-          {props.view}
+          {props.viewWeb}
+        </a>
+        <a
+          href={linkCode}
+          rel="noopener noreferrer"
+          target={'_blank'}
+          className="article__button"
+        >
+          {props.viewCode}
         </a>
       </div>
 
