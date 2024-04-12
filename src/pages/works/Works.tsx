@@ -18,9 +18,11 @@ export const Works = ({ language }: { language: LanguageType }) => {
               <Article
                 key={key}
                 image={el.image}
-                link={el.link}
+                linkWeb={el.linkWeb}
+                linkCode={el.linkCode}
                 title={el.title}
-                view={Lang.hover}
+                viewWeb={Lang.hoverWeb}
+                viewCode={Lang.hoverCode}
               >
                 {el.description}
               </Article>
