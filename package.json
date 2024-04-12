@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://vitalyvitmens.github.io/rs-react-todo/my-portfolio/",
+  "homepage": "https://vitalyvitmens.github.io/my-portfolio/",
   "dependencies": {
     "axios": "^0.27.2",
     "formik": "^2.2.9",

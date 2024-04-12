@@ -27,9 +27,9 @@ export const WeatherDateInfo: React.FC<FooterProps> = () => {
       style={{
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
         padding: '10px',
-        width: '800px',
+        width: '750px',
         fontWeight: 'bold',
       }}
     >
