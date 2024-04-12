@@ -11,6 +11,11 @@
 
   &__image {
     position: relative;
+    display: flex; // Добавляем flex для управления потомками
+    flex-direction: column; // Располагаем потомков в колонку
+    align-items: center; // Центрируем потомков по горизонтали
+    justify-content: center; // Центрируем потомков по вертикали
+    margin: auto;
 
     &:before {
       content: '';
@@ -18,7 +23,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%;
+      height: 72.5%;
 
       background: rgba(78, 121, 185, 0.8);
       backdrop-filter: blur(4px);
@@ -41,9 +46,10 @@
   }
 
   &__button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    display: flex;
+    position: relative;
+    top: -170px;
+    left: 17%;
 
     font-weight: 500;
     color: #20a1ff;
@@ -57,6 +63,7 @@
     opacity: 0;
     transition: 0.4s;
     border: 0 none;
+    margin-bottom: 20px;
   }
 
   &__image {
@@ -65,14 +72,16 @@
       height: auto;
       border-radius: 10px;
       object-fit: cover;
+      z-index: 1; 
     }
   }
 
   &__title {
-    margin-top: 18px;
+    margin-top: -85px;
 
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1.125rem;
+    text-shadow: -1px 1px 1px rgb(20, 20, 20);
     letter-spacing: 1px;
     text-transform: uppercase;
 
@@ -83,6 +92,7 @@
     margin-top: 10px;
 
     font-size: 1.7rem;
+    text-shadow: -1px 1px 1px rgb(97, 15, 15);
     font-weight: 600;
     line-height: 34px;
     color: #1e2125;
