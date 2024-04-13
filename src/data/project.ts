@@ -36,7 +36,7 @@ export const ProjectData = [
     title: 'Contact Book',
     image: ContactBookImg,
     description:
-      'React JS, Vite, Redux Toolkit, RTK Query, React Router 6, Axios, Bootstrap. Turn on VPN',
+      'React TS, Vite, Redux Toolkit, RTK Query, React Router 6, Axios, Bootstrap. Turn on VPN',
     linkWeb:
       'https://vitalyvitmens.github.io/rs-redux-toolkit-rtk-query-contacts/',
     linkCode:
