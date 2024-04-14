@@ -1,12 +1,15 @@
 import {
   ApiIcon,
   CSSIcon,
+  SSRIcon,
+  PWAIcon,
+  StyledComponentsIcon,
   DockerIcon,
   FigmaIcon,
   GitIcon,
   HtmlIcon,
   JsIcon,
-  MuiIcon,
+  MantineIcon,
   ReactIcon,
   ReduxIcon,
   SASSIcon,
@@ -37,20 +40,28 @@ export const MySkillData: Array<MySkillDataType> = [
     image: ReduxIcon,
   },
   {
-    title: 'HTML5',
-    image: HtmlIcon,
-  },
-  {
     title: 'CSS',
     image: CSSIcon,
+  },
+  {
+    title: 'Styled Cp',
+    image: StyledComponentsIcon,
   },
   {
     title: 'Sass/scss',
     image: SASSIcon,
   },
   {
-    title: 'MUI',
-    image: MuiIcon,
+    title: 'Mantine',
+    image: MantineIcon,
+  },
+  {
+    title: 'SSR',
+    image: SSRIcon,
+  },
+  {
+    title: 'PWA',
+    image: PWAIcon,
   },
   {
     title: 'Rest API',
@@ -67,6 +78,10 @@ export const MySkillData: Array<MySkillDataType> = [
   {
     title: 'Docker',
     image: DockerIcon,
+  },
+  {
+    title: 'HTML5',
+    image: HtmlIcon,
   },
   {
     title: 'figma',

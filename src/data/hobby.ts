@@ -38,16 +38,16 @@ export const HobbyData = [
   {
     title: 'Chess',
     icon: ChessIcon,
-    link: 'https://sun9-51.userapi.com/impf/c841421/v841421704/14518/xW-IZHmIXjc.jpg?size=780x1040&quality=96&sign=a59c396186bd271acc10666f7bcb3af2&type=album',
+    link: 'https://github.com/vitalyvitmens/my-portfolio/blob/main/src/assets/images/photo/chess.jpg?raw=true',
   },
   {
     title: 'Family',
     icon: FamilyIcon,
-    link: 'https://sun9-51.userapi.com/impf/c841421/v841421704/14518/xW-IZHmIXjc.jpg?size=780x1040&quality=96&sign=a59c396186bd271acc10666f7bcb3af2&type=album',
+    link: 'https://github.com/vitalyvitmens/my-portfolio/blob/main/src/assets/images/photo/family.jpg?raw=true',
   },
   {
     title: 'Car',
     icon: CarIcon,
-    link: 'https://sun9-51.userapi.com/impf/c841421/v841421704/14518/xW-IZHmIXjc.jpg?size=780x1040&quality=96&sign=a59c396186bd271acc10666f7bcb3af2&type=album',
+    link: 'https://github.com/vitalyvitmens/my-portfolio/blob/main/src/assets/images/photo/car.jpg?raw=true',
   },
 ]

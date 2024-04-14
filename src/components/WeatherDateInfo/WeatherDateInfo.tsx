@@ -23,17 +23,8 @@ export const WeatherDateInfo: React.FC<FooterProps> = () => {
   }, [])
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-around',
-        padding: '10px',
-        width: '750px',
-        fontWeight: 'bold',
-      }}
-    >
-      <div>
+    <div className="weather">
+      <div className="weather__row-year">
         <div>My Portfolio</div>
         <div>
           ©{' '}
@@ -43,7 +34,7 @@ export const WeatherDateInfo: React.FC<FooterProps> = () => {
           vitalyvitmens. All rights reserved.
         </div>
       </div>
-      <div>
+      <div className="weather__date-temperature">
         <div>
           {city}{' '}
           {new Date().toLocaleString('ru', {

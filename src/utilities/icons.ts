@@ -14,19 +14,20 @@ import ToUpIcon from './../assets/svg/to-up.svg'
 
 import ReactIcon from './../assets/svg/react.svg'
 import ReduxIcon from './../assets/svg/redux.svg'
-import TsIcon from './../assets/svg/ts.svg'
+import TsIcon from './../assets/images/icons/ts.png'
 import JsIcon from './../assets/svg/js.svg'
-import StoryBookIcon from './../assets/svg/storybook.svg'
 import LaravelIcon from './../assets/images/icons/laravel.png'
 import HtmlIcon from './../assets/images/icons/html5.jpeg'
 import CSSIcon from './../assets/images/icons/CSS3.png'
+import StyledComponentsIcon from './../assets/images/icons/styled-components.png'
 import SASSIcon from './../assets/images/icons/sass.png'
-import MuiIcon from './../assets/images/icons/material-ui.png'
+import MantineIcon from './../assets/images/icons/mantine.png'
+import SSRIcon from './../assets/images/icons/ssr.png'
+import PWAIcon from './../assets/images/icons/pwa.png'
 import ApiIcon from './../assets/images/icons/api.png'
 import TestIcon from './../assets/svg/test.svg'
 import GitIcon from './../assets/svg/git.svg'
 import DockerIcon from './../assets/svg/docker.svg'
-import PhotoshopIcon from './../assets/svg/photoshop.svg'
 import FigmaIcon from './../assets/svg/figma.svg'
 
 export {
@@ -46,16 +47,17 @@ export {
   ReduxIcon,
   TsIcon,
   JsIcon,
-  StoryBookIcon,
   LaravelIcon,
   HtmlIcon,
   CSSIcon,
+  StyledComponentsIcon,
   SASSIcon,
-  MuiIcon,
+  MantineIcon,
+  SSRIcon,
+  PWAIcon,
   ApiIcon,
   TestIcon,
   GitIcon,
   DockerIcon,
-  PhotoshopIcon,
   FigmaIcon,
 }

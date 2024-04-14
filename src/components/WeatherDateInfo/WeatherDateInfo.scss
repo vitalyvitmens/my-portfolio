@@ -1,8 +1,34 @@
-.footer {
-  // display: 'flex';
-  // flex-direction: 'row';
-  // justify-content: 'space-between';
-  // padding: '10px';
-  // width: '800px';
-  // font-weight: bold;
+.weather {
+  display: flex;
+  margin-top: 20px;
+  width: '100%';
+  font-weight: bold;
+
+  &__row-year {
+    margin-right: 100px;
+  }
+
+  &__date-temperature {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .weather {
+    display: flex;
+    margin-bottom: -20px;
+    width: '100%';
+    font-weight: bold;
+    font-size: 0.8rem;
+
+    &__row-year {
+      flex-direction: column;
+      margin-right: 2px;
+    }
+
+    &__date-temperature {
+      flex-direction: 'column';
+      margin-left: 2px;
+    }
+  }
 }
