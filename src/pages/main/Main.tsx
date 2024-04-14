@@ -2,7 +2,7 @@ import { LinkHobby } from '../../components/Link/LinkHobby'
 import { AboutMeLang } from '../../langs/lang'
 import { LanguageType } from '../../App'
 import { HobbyData } from '../../data/hobby'
-import Photo from './../../assets/images/photo.jpg'
+import Photo from '../../assets/images/photo/photo.jpg'
 import './Main.scss'
 
 export const Main = ({ language }: { language: LanguageType }) => {
