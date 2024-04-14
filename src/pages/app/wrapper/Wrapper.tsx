@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import './Page.scss';
-import { AnimationBackground } from "../../../components/animation/AnimationBackground";
+import { AnimationBackground } from "../../../components/AnimationBackground/AnimationBackground";
 
 type PagePropsType = {
     animationBg?: boolean

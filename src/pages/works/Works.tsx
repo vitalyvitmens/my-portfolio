@@ -1,5 +1,5 @@
 import './Works.scss'
-import { Article } from '../../components/article/Article'
+import { Article } from '../../components/Article/Article'
 import { LanguageType } from '../../App'
 import { ProjectLang } from '../../langs/lang'
 import { ProjectData } from '../../data/project'

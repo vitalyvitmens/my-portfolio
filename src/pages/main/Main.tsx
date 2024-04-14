@@ -1,17 +1,13 @@
-import { LinkDisabled } from '../../components/link/LinkDisabled'
+import { LinkHobby } from '../../components/Link/LinkHobby'
 import { AboutMeLang } from '../../langs/lang'
 import { LanguageType } from '../../App'
+import { HobbyData } from '../../data/hobby'
 import Photo from './../../assets/images/photo.jpg'
-import {
-  BentoIcon,
-  BicycleIcon,
-  SwimmingIcon,
-  TechnologystIcon,
-} from '../../utilities/icons'
 import './Main.scss'
 
 export const Main = ({ language }: { language: LanguageType }) => {
   const Lang = AboutMeLang[language]
+  const Data = HobbyData
 
   return (
     <div className="main">
@@ -26,18 +22,13 @@ export const Main = ({ language }: { language: LanguageType }) => {
         <div className="main__fanny">
           <span className="subtitle">{Lang.mood}</span>
           <ul className="main__fanny-list">
-            <li>
-              <LinkDisabled icon={TechnologystIcon} />
-            </li>
-            <li>
-              <LinkDisabled icon={BicycleIcon} />
-            </li>
-            <li>
-              <LinkDisabled icon={BentoIcon} />
-            </li>
-            <li>
-              <LinkDisabled icon={SwimmingIcon} />
-            </li>
+            {Data.map((el, key) => {
+              return (
+                <li key={key}>
+                  <LinkHobby icon={{ url: el.icon }} link={el.link} />
+                </li>
+              )
+            })}
           </ul>
         </div>
       </div>

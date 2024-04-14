@@ -1,4 +1,4 @@
-import { Paper } from '../../components/paper/Paper'
+import { Paper } from '../../components/Paper/Paper'
 import { LanguageType } from '../../App'
 import { MySkillData } from '../../data/my-skill'
 import { MySkillLang } from '../../langs/lang'

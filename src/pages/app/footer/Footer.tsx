@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll'
 import { LanguageType } from '../../../App'
-import { LinkModern } from '../../../components/link/LinkModern'
+import { LinkModern } from '../../../components/Link/LinkModern'
 import { SocialsData } from '../../../data/socials'
 import { ToUpIcon } from '../../../utilities/icons'
 import './Footer.scss'
