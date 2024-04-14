@@ -68,8 +68,6 @@ export const Contacts = ({ language }: { language: LanguageType }) => {
       <div className="contacts__form">
         <div className="form">
           <form
-            action="https://formspree.io/f/mayrlvdz"
-            method="POST"
             className="form__wrapper"
             id="contact-form"
             onSubmit={formik.handleSubmit}
