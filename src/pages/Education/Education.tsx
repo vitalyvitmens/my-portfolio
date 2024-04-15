@@ -1,9 +1,9 @@
+import { Fade } from 'react-awesome-reveal'
 import { Paper } from '../../components/Paper/Paper'
 import { LanguageType } from '../../App'
 import { MyEducationData } from '../../data/myEducation'
 import { MyEducationLang } from '../../langs/lang'
 import './Education.scss'
-import { Fade } from 'react-awesome-reveal'
 
 export const Educations = ({ language }: { language: LanguageType }) => {
   const Lang = MyEducationLang[language]

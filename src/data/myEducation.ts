@@ -10,16 +10,16 @@ export const MyEducationData: Array<MyEducationDataType> = [
   {
     title: 'СПГУ',
     image: ReactIcon,
-    link: 'https://github.com/vitalyvitmens',
+    link: 'https://lk.result.school/pl/298989324',
   },
   {
     title: 'БГЭУ',
     image: JsIcon,
-    link: 'https://github.com/vitalyvitmens',
+    link: 'https://raw.githubusercontent.com/vitalyvitmens/SQLite/main/logo/diplomas/BSUE.jpg',
   },
   {
     title: 'БГАА',
     image: TsIcon,
-    link: 'https://github.com/vitalyvitmens',
+    link: 'https://raw.githubusercontent.com/vitalyvitmens/SQLite/main/logo/diplomas/MSHFTC.jpg',
   },
 ]

@@ -6,7 +6,6 @@
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
-    width: 43vw;
 
     color: #3c3e41;
   }
@@ -21,7 +20,7 @@
 @media (max-width: 1022px) {
   .education {
     &__body {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 }
@@ -30,7 +29,7 @@
   .education {
     width: 100%;
     &__body {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       grid-gap: 20px;
     }
   }

@@ -7,7 +7,6 @@ type PaperPropsType = {
   icon?: string
   title: string
   link?: string
-  viewWeb?: string
 }
 
 export const Paper = ({ children, ...props }: PaperPropsType) => {
@@ -22,7 +21,7 @@ export const Paper = ({ children, ...props }: PaperPropsType) => {
         target={'_blank'}
         className="article__button"
       >
-        {props.viewWeb}
+        {props.link}
       </a>
 
       <h3 className="paper__title">{props.title}</h3>
