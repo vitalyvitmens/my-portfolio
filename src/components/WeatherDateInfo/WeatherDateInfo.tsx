@@ -11,9 +11,7 @@ export const WeatherDateInfo: React.FC<FooterProps> = () => {
   const [weather, setWeather] = useState<string>('')
 
   useEffect(() => {
-    fetch(
-      'https://api.openweathermap.org/data/2.5/weather?q=Minsk&units=metric&lang=ru&appid=4707c215225f3783a2e45a56dd73e1b2'
-    )
+    fetch(process.env.REACT_APP_WEATHER_API_KEY as string)
       .then((res) => res.json())
       .then(({ name, main, weather }) => {
         setCity(name)
