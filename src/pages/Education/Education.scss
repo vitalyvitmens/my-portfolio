@@ -1,0 +1,45 @@
+.education {
+  &__title {
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 43vw;
+
+    color: #3c3e41;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media (max-width: 1022px) {
+  .education {
+    &__body {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .education {
+    width: 100%;
+    &__body {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .education {
+    &__body {
+      grid-template-columns: 1fr;
+    }
+  }
+}

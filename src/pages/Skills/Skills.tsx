@@ -1,6 +1,6 @@
 import { Paper } from '../../components/Paper/Paper'
 import { LanguageType } from '../../App'
-import { MySkillData } from '../../data/my-skill'
+import { MySkillData } from '../../data/mySkill'
 import { MySkillLang } from '../../langs/lang'
 import './Skills.scss'
 import { Fade } from 'react-awesome-reveal'

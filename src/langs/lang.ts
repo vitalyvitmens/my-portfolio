@@ -1,7 +1,15 @@
-import { AboutMeLang } from './about-me';
-import { ContactLang } from './contact';
-import { HeaderMenuLang } from './header-menu';
-import { MySkillLang } from './my-skill';
-import { ProjectLang } from './project';
+import { MyEducationLang } from './myEducation'
+import { AboutMeLang } from './aboutMe'
+import { ContactLang } from './contact'
+import { HeaderMenuLang } from './headerMenu'
+import { MySkillLang } from './mySkill'
+import { ProjectLang } from './project'
 
-export { AboutMeLang, MySkillLang, ProjectLang, ContactLang, HeaderMenuLang };
+export {
+  AboutMeLang,
+  MyEducationLang,
+  MySkillLang,
+  ProjectLang,
+  ContactLang,
+  HeaderMenuLang,
+}

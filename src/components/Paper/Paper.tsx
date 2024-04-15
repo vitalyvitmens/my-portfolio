@@ -6,6 +6,8 @@ type PaperPropsType = {
   children?: ReactNode
   icon?: string
   title: string
+  link?: string
+  viewWeb?: string
 }
 
 export const Paper = ({ children, ...props }: PaperPropsType) => {
@@ -14,6 +16,15 @@ export const Paper = ({ children, ...props }: PaperPropsType) => {
       <LazyLoad height={50}>
         <img src={props.icon} alt="my skill" className="paper__icon" />
       </LazyLoad>
+      <a
+        href={props.link}
+        rel="noopener noreferrer"
+        target={'_blank'}
+        className="article__button"
+      >
+        {props.viewWeb}
+      </a>
+
       <h3 className="paper__title">{props.title}</h3>
     </section>
   )

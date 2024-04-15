@@ -2,6 +2,7 @@ import { useLayoutEffect, useState } from 'react'
 import { Header } from './pages/app/Header/Header'
 import { Wrapper } from './pages/app/Wrapper/Wrapper'
 import { Main } from './pages/Main/Main'
+import { Educations } from './pages/Education/Education'
 import { Skills } from './pages/Skills/Skills'
 import { Works } from './pages/Works/Works'
 import { Offer } from './pages/Offer/Offer'
@@ -35,6 +36,10 @@ export const App = () => {
         <Wrapper id="main" animationBg={true}>
           {' '}
           <Main language={language} />{' '}
+        </Wrapper>
+        <Wrapper id="education">
+          {' '}
+          <Educations language={language} />{' '}
         </Wrapper>
         <Wrapper id="skill">
           {' '}
