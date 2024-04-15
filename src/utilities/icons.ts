@@ -29,6 +29,8 @@ import TestIcon from './../assets/svg/test.svg'
 import GitIcon from './../assets/svg/git.svg'
 import DockerIcon from './../assets/svg/docker.svg'
 import FigmaIcon from './../assets/svg/figma.svg'
+import BGAAIcon from './../assets/svg/bgaa.svg'
+import BGEUIcon from './../assets/images/icons/bgeu.png'
 
 export {
   ProgrammingIcon,
@@ -60,4 +62,6 @@ export {
   GitIcon,
   DockerIcon,
   FigmaIcon,
+  BGAAIcon,
+  BGEUIcon,
 }

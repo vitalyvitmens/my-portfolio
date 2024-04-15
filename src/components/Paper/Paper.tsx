@@ -19,7 +19,7 @@ export const Paper = ({ children, ...props }: PaperPropsType) => {
         href={props.link}
         rel="noopener noreferrer"
         target={'_blank'}
-        className="article__button"
+        // className="article__button"
       >
         {props.link}
       </a>
