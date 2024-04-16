@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-scroll'
 import { LanguageType } from '../../../App'
 import { HeaderMenuLang } from '../../../langs/lang'
-import { CV_URL } from '../../../constants/urls'
+import { CV_EN_URL, CV_RU_URL } from '../../../constants/urls'
 import './Header.scss'
 
 export type HeaderPropsType = {
@@ -80,7 +80,7 @@ export const Header = ({ setLanguage, language }: HeaderPropsType) => {
               })}
               <li>
                 <a
-                  href={CV_URL}
+                  href={language === 'ru' ? CV_RU_URL : CV_EN_URL}
                   style={{
                     color: '#ee3c7f',
                     fontWeight: 'bold',
