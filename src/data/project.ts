@@ -88,7 +88,7 @@ export const ProjectData = [
     title: 'Cart',
     image: CartImg,
     description:
-      'React TS, CRA, Mobx, Mobx React Lite, Observer, GH Pages, Module CSS',
+      'React TS, CRA, Mobx, Mobx React Lite, Observer, Context, GH Pages, Module CSS',
     linkWeb: 'https://vitalyvitmens.github.io/react-ts-mobx-cart/',
     linkCode: 'https://github.com/vitalyvitmens/react-ts-mobx-cart',
   },
