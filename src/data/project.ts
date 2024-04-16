@@ -6,6 +6,8 @@ import MyPortfolioImg from './../assets/images/projects/my-portfolio.jpg'
 import TodoImg from './../assets/images/projects/todo.jpg'
 import SocialPostImg from './../assets/images/projects/social-post.jpg'
 import NewsBlogImg from './../assets/images/projects/news-blog.jpg'
+import NatureImg from './../assets/images/projects/nature.jpg'
+import CartImg from './../assets/images/projects/cart.jpg'
 
 export const ProjectData = [
   {
@@ -73,5 +75,21 @@ export const ProjectData = [
       'React TS, CRA, React lazyload, React Scroll, React Awesome Reveal, Axios, Formik, GH Pages, SCSS',
     linkWeb: '',
     linkCode: 'https://github.com/vitalyvitmens/my-portfolio',
+  },
+  {
+    title: 'Nature',
+    image: NatureImg,
+    description:
+      'Java Script, Webpack, Webpack Plugins, Webpack loaders, Eslint, Prettier, GH Pages, SCSS',
+    linkWeb: 'https://vitalyvitmens.github.io/rs-nature/',
+    linkCode: 'https://github.com/vitalyvitmens/rs-nature',
+  },
+  {
+    title: 'Cart',
+    image: CartImg,
+    description:
+      'React TS, CRA, Mobx, Mobx React Lite, Observer, GH Pages, Module CSS',
+    linkWeb: 'https://vitalyvitmens.github.io/react-ts-mobx-cart/',
+    linkCode: 'https://github.com/vitalyvitmens/react-ts-mobx-cart',
   },
 ]
