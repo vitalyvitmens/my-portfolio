@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-scroll'
 import { LanguageType } from '../../../App'
 import { HeaderMenuLang } from '../../../langs/lang'
+import { CV_URL } from '../../../constants/urls'
 import './Header.scss'
 
 export type HeaderPropsType = {
@@ -79,7 +80,7 @@ export const Header = ({ setLanguage, language }: HeaderPropsType) => {
               })}
               <li>
                 <a
-                  href={'/cv.pdf'}
+                  href={CV_URL}
                   style={{
                     color: '#ee3c7f',
                     fontWeight: 'bold',
