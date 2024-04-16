@@ -4,9 +4,10 @@ import './WeatherDateInfo.scss'
 
 type FooterProps = {
   className?: string
+  language: string
 }
 
-export const WeatherDateInfo: React.FC<FooterProps> = () => {
+export const WeatherDateInfo: React.FC<FooterProps> = ({ language }) => {
   const [city, setCity] = useState<string>('')
   const [temperature, setTemperature] = useState<number | null>(null)
   const [weather, setWeather] = useState<string>('')
@@ -27,7 +28,7 @@ export const WeatherDateInfo: React.FC<FooterProps> = () => {
         <div>My Portfolio</div>
         <div>
           ©{' '}
-          {new Date().toLocaleString('ru', {
+          {new Date().toLocaleString(language, {
             year: 'numeric',
           })}{' '}
           vitalyvitmens. All rights reserved.
@@ -36,7 +37,7 @@ export const WeatherDateInfo: React.FC<FooterProps> = () => {
       <div className="weather__date-temperature">
         <div>
           {city}{' '}
-          {new Date().toLocaleString('ru', {
+          {new Date().toLocaleString(language, {
             day: 'numeric',
             month: 'long',
             year: 'numeric',

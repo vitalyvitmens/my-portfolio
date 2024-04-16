@@ -24,7 +24,7 @@ export const Footer = ({ language }: { language: LanguageType }) => {
         })}
       </ul>
       <span>
-        <WeatherDateInfo />
+        <WeatherDateInfo language={language} />
       </span>
       <Link to="main" smooth={true} className="footer__to-up">
         <img src={ToUpIcon} alt="to-up" />
