@@ -1,9 +1,8 @@
 import axios from 'axios'
-import { FORMSPREE_BASE_URL } from '../constants/urls'
-import { FORMSPREE_API_KEY } from '../constants/apiKeys'
+import { FORMSPREE_URL } from '../constants/urls'
 
 export const send = async (email: string, name: string, text: string) => {
-  await axios.post(FORMSPREE_BASE_URL + FORMSPREE_API_KEY, {
+  await axios.post(FORMSPREE_URL, {
     email,
     name,
     message: text,
