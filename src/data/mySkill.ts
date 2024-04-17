@@ -1,19 +1,35 @@
 import {
   ApiIcon,
+  AntDesignIcon,
+  BootstrapIcon,
   CSSIcon,
   SSRIcon,
   PWAIcon,
   StyledComponentsIcon,
+  TailwindIcon,
   DockerIcon,
+  WebpackIcon,
+  ViteIcon,
   FigmaIcon,
   GitIcon,
   HtmlIcon,
   JsIcon,
   MantineIcon,
+  MaterialUIIcon,
+  MongoDBIcon,
+  MongooseIcon,
+  PrismaIcon,
   ReactIcon,
   ReduxIcon,
+  ReduxToolkitIcon,
+  RTKQueryIcon,
+  MobXIcon,
   SASSIcon,
   TestIcon,
+  ContractIcon,
+  IntegrationIcon,
+  E2EIcon,
+  PostgreSQLIcon,
   TsIcon,
 } from '../utilities/icons'
 
@@ -36,24 +52,72 @@ export const MySkillData: Array<MySkillDataType> = [
     image: TsIcon,
   },
   {
-    title: 'REDUX',
-    image: ReduxIcon,
+    title: 'HTML5',
+    image: HtmlIcon,
   },
   {
     title: 'CSS',
     image: CSSIcon,
   },
   {
-    title: 'Styled Cp',
-    image: StyledComponentsIcon,
-  },
-  {
     title: 'Sass/scss',
     image: SASSIcon,
   },
   {
+    title: 'Styled Cp',
+    image: StyledComponentsIcon,
+  },
+  {
+    title: 'Tailwind',
+    image: TailwindIcon,
+  },
+  {
     title: 'Mantine',
     image: MantineIcon,
+  },
+  {
+    title: 'Bootstrap',
+    image: BootstrapIcon,
+  },
+  {
+    title: 'Material-UI',
+    image: MaterialUIIcon,
+  },
+  {
+    title: 'Ant Design',
+    image: AntDesignIcon,
+  },
+  {
+    title: 'REDUX',
+    image: ReduxIcon,
+  },
+  {
+    title: 'Toolkit',
+    image: ReduxToolkitIcon,
+  },
+  {
+    title: 'RTK Query',
+    image: RTKQueryIcon,
+  },
+  {
+    title: 'MobX',
+    image: MobXIcon,
+  },
+  {
+    title: 'Mongo DB',
+    image: MongoDBIcon,
+  },
+  {
+    title: 'Mongoose',
+    image: MongooseIcon,
+  },
+  {
+    title: 'Prisma',
+    image: PrismaIcon,
+  },
+  {
+    title: 'PostgreSQL',
+    image: PostgreSQLIcon,
   },
   {
     title: 'SSR',
@@ -68,23 +132,39 @@ export const MySkillData: Array<MySkillDataType> = [
     image: ApiIcon,
   },
   {
+    title: 'Git',
+    image: GitIcon,
+  },
+  {
     title: 'Unit Test',
     image: TestIcon,
   },
   {
-    title: 'Git',
-    image: GitIcon,
+    title: 'Integration',
+    image: IntegrationIcon,
+  },
+  {
+    title: 'Contract',
+    image: ContractIcon,
+  },
+  {
+    title: 'E2E Test',
+    image: E2EIcon,
+  },
+  {
+    title: 'Webpack',
+    image: WebpackIcon,
+  },
+  {
+    title: 'Vite',
+    image: ViteIcon,
   },
   {
     title: 'Docker',
     image: DockerIcon,
   },
   {
-    title: 'HTML5',
-    image: HtmlIcon,
-  },
-  {
-    title: 'figma',
+    title: 'Figma',
     image: FigmaIcon,
   },
 ]
