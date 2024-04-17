@@ -1,11 +1,11 @@
-import { BSAAIcon, BSEUIcon, ReactIcon } from '../utilities/icons'
+import { BSAAIcon, BSEUIcon, ReactIcon, FrontendLink } from '../utilities/icons'
 
 export const MyEducationData = {
   ru: [
     {
       title: 'Диплом о профессиональной переподготовке',
       image: ReactIcon,
-      link: 'https://github.com/vitalyvitmens/SQLite/blob/main/logo/diplomas/diplom-frontend.JPG?raw=true',
+      link: FrontendLink,
     },
     {
       title: 'Белорусский государственный экономический университет',
@@ -23,7 +23,7 @@ export const MyEducationData = {
     {
       title: 'Diploma of professional retraining',
       image: ReactIcon,
-      link: 'https://github.com/vitalyvitmens/SQLite/blob/main/logo/diplomas/diplom-frontend.JPG?raw=true',
+      link: FrontendLink,
     },
     {
       title: 'Belarus State Economic University',
