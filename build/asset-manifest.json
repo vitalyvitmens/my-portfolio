@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.3ab56e05.css",
-    "main.js": "/my-portfolio/static/js/main.a45aafc8.js",
+    "main.js": "/my-portfolio/static/js/main.7ecfcbfb.js",
     "static/js/453.ace21015.chunk.js": "/my-portfolio/static/js/453.ace21015.chunk.js",
     "static/media/nature.jpg": "/my-portfolio/static/media/nature.e1400a3da660936865ae.jpg",
     "static/media/rick-and-morty.jpg": "/my-portfolio/static/media/rick-and-morty.0409888c723abb7eddc8.jpg",
@@ -14,7 +14,6 @@
     "static/media/forms.jpg": "/my-portfolio/static/media/forms.5c0a6ad38a60a8031867.jpg",
     "static/media/my-portfolio.jpg": "/my-portfolio/static/media/my-portfolio.b3f58e6af8e74836161e.jpg",
     "static/media/crypto-initial.jpg": "/my-portfolio/static/media/crypto-initial.e62005581526a6affb2a.jpg",
-    "static/media/spsu.png": "/my-portfolio/static/media/spsu.6a5437a029d011dd112c.png",
     "static/media/styled-components.png": "/my-portfolio/static/media/styled-components.91057b06174e24f79475.png",
     "static/media/sass.png": "/my-portfolio/static/media/sass.7cdbf6b5889c42b3e490.png",
     "static/media/family.png": "/my-portfolio/static/media/family.117758c997512f90beb0.png",
@@ -44,11 +43,11 @@
     "static/media/figma.svg": "/my-portfolio/static/media/figma.7ec53a4a5c6c13b7d459f072fc73adf1.svg",
     "static/media/vk.svg": "/my-portfolio/static/media/vk.7fd72d7a66ffdff0ca0381f1fc891203.svg",
     "main.3ab56e05.css.map": "/my-portfolio/static/css/main.3ab56e05.css.map",
-    "main.a45aafc8.js.map": "/my-portfolio/static/js/main.a45aafc8.js.map",
+    "main.7ecfcbfb.js.map": "/my-portfolio/static/js/main.7ecfcbfb.js.map",
     "453.ace21015.chunk.js.map": "/my-portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ab56e05.css",
-    "static/js/main.a45aafc8.js"
+    "static/js/main.7ecfcbfb.js"
   ]
 }

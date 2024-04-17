@@ -1,11 +1,11 @@
-import { BSAAIcon, BSEUIcon, SPSUIcon } from '../utilities/icons'
+import { BSAAIcon, BSEUIcon, ReactIcon } from '../utilities/icons'
 
 export const MyEducationData = {
   ru: [
     {
-      title: 'Санкт-Петербургский государственный университет',
-      image: SPSUIcon,
-      link: 'https://lk.result.school/pl/298989324',
+      title: 'Диплом о профессиональной переподготовке',
+      image: ReactIcon,
+      link: 'https://github.com/vitalyvitmens/SQLite/blob/main/logo/diplomas/diplom-frontend.JPG?raw=true',
     },
     {
       title: 'Белорусский государственный экономический университет',
@@ -21,9 +21,9 @@ export const MyEducationData = {
 
   en: [
     {
-      title: 'Saint Petersburg State University',
-      image: SPSUIcon,
-      link: 'https://lk.result.school/pl/298989324',
+      title: 'Diploma of professional retraining',
+      image: ReactIcon,
+      link: 'https://github.com/vitalyvitmens/SQLite/blob/main/logo/diplomas/diplom-frontend.JPG?raw=true',
     },
     {
       title: 'Belarus State Economic University',

@@ -31,7 +31,6 @@ import DockerIcon from './../assets/svg/docker.svg'
 import FigmaIcon from './../assets/svg/figma.svg'
 import BSAAIcon from './../assets/svg/bsaa.svg'
 import BSEUIcon from './../assets/images/icons/bseu.png'
-import SPSUIcon from './../assets/images/icons/spsu.png'
 
 export {
   ProgrammingIcon,
@@ -65,5 +64,4 @@ export {
   FigmaIcon,
   BSAAIcon,
   BSEUIcon,
-  SPSUIcon,
 }
