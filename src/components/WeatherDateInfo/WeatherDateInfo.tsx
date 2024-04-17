@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import { WEATHER_API_URL } from '../../constants/urls'
+import { WEATHER_API_KEY } from '../../constants/apiKeys'
+import { weatherApiBaseUrl } from '../../constants/baseUrls'
 import './WeatherDateInfo.scss'
 
 type FooterProps = {
@@ -8,19 +9,19 @@ type FooterProps = {
 }
 
 export const WeatherDateInfo: React.FC<FooterProps> = ({ language }) => {
-  const [city, setCity] = useState<string>('')
+  const [city, setCity] = useState<string>('Minsk')
   const [temperature, setTemperature] = useState<number | null>(null)
   const [weather, setWeather] = useState<string>('')
 
   useEffect(() => {
-    fetch(WEATHER_API_URL)
+    fetch(weatherApiBaseUrl(language) + WEATHER_API_KEY)
       .then((res) => res.json())
       .then(({ name, main, weather }) => {
         setCity(name)
         setTemperature(Math.round(main.temp))
         setWeather(weather[0].description)
       })
-  }, [])
+  }, [language])
 
   return (
     <div className="weather">
