@@ -14,7 +14,14 @@ export const Skills = ({ language }: { language: LanguageType }) => {
       <div className="skill__body">
         <Fade cascade duration={150} triggerOnce={true} direction={'right'}>
           {MySkillData.map((el, key) => {
-            return <Paper key={key} title={el.title} icon={el.image} />
+            return (
+              <Paper
+                key={key}
+                title={el.title}
+                icon={el.image}
+                link={el.link}
+              />
+            )
           })}
         </Fade>
       </div>
