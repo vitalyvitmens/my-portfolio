@@ -9,22 +9,22 @@ type PaperPropsType = {
   link?: string
 }
 
-export const Paper = ({ children, ...props }: PaperPropsType) => {
+export const Paper = ({ children, link, icon, title }: PaperPropsType) => {
   return (
-    <section className="paper">
-      <LazyLoad height={50}>
-        <img src={props.icon} alt="my skill" className="paper__icon" />
-      </LazyLoad>
+    <>
       <a
-        href={props.link}
+        href={link}
         rel="noopener noreferrer"
         target={'_blank'}
         className="education__link"
       >
-        {props.link}
+        <section className="paper">
+          <LazyLoad height={50}>
+            <img src={icon} alt="my skill" className="paper__icon" />
+          </LazyLoad>
+          <h3 className="paper__title">{title}</h3>
+        </section>
       </a>
-
-      <h3 className="paper__title">{props.title}</h3>
-    </section>
+    </>
   )
 }

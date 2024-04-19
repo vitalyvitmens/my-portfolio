@@ -15,7 +15,6 @@
     width: 100%;
     height: 100%;
     font-size: 3rem;
-    opacity: 0;
   }
 
   &__body {
@@ -49,7 +48,7 @@
 @media (max-width: 460px) {
   .education {
     &__body {
-      width: 300px;
+      width: 325px;
       grid-template-columns: 1fr;
     }
   }
