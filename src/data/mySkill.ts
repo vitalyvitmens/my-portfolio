@@ -89,6 +89,7 @@ export const MySkillData: Array<MySkillDataType> = [
   {
     title: 'Bootstrap',
     image: BootstrapIcon,
+    link: 'https://github.com/vitalyvitmens/rs-redux-toolkit-rtk-query-contacts/blob/main/src/components/MainMenu/MainMenu.tsx',
   },
   {
     title: 'Material-UI',
