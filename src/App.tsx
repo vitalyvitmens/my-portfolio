@@ -10,7 +10,6 @@ import { Contacts } from './pages/Contacts/Contacts'
 import { Footer } from './pages/app/Footer/Footer'
 import './styles/app.scss'
 import './styles/animation.scss'
-// import Environment from './components/Environment/Environment'
 
 export type LanguageType = 'ru' | 'en'
 
