@@ -2,18 +2,18 @@
 @use './../../styles/vars';
 
 .offer {
-    @include mixin.flex-center;
-    flex-direction: column;
+  @include mixin.flex-center;
+  flex-direction: column;
 
-    &__title {
-        display: block;
-        margin-bottom: 50px;
+  &__title {
+    display: block;
+    margin-bottom: 50px;
 
-        color: vars.$secondary-color;
-    }
+    color: vars.$secondary-color;
+  }
 
-    &__title {
-        text-align: center;
-        line-height: 2;
-    }
+  &__title {
+    text-align: center;
+    line-height: 2;
+  }
 }
