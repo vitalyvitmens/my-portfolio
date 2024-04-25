@@ -93,6 +93,7 @@ export const MySkillData: Array<MySkillDataType> = [
   {
     title: 'Material-UI',
     image: MaterialUIIcon,
+    link: 'https://mui.com/store/?utm_source=marketing&utm_medium=referral&utm_campaign=templates-cta#populars',
   },
   {
     title: 'Ant Design',
@@ -132,14 +133,17 @@ export const MySkillData: Array<MySkillDataType> = [
   {
     title: 'Prisma',
     image: PrismaIcon,
+    link: 'https://github.com/vitalyvitmens/core/blob/master/prisma/schema.prisma',
   },
   {
     title: 'PostgreSQL',
     image: PostgreSQLIcon,
+    link: 'https://github.com/vitalyvitmens/core/blob/master/prisma/migrations/migration_lock.toml',
   },
   {
     title: 'SSR',
     image: SSRIcon,
+    link: 'https://github.com/vitalyvitmens/core',
   },
   {
     title: 'PWA',
@@ -149,6 +153,7 @@ export const MySkillData: Array<MySkillDataType> = [
   {
     title: 'Rest API',
     image: ApiIcon,
+    link: 'https://github.com/vitalyvitmens/news-blog/blob/main/frontend/src/utils/request.js',
   },
   {
     title: 'Git',
@@ -193,5 +198,6 @@ export const MySkillData: Array<MySkillDataType> = [
   {
     title: 'Figma',
     image: FigmaIcon,
+    link: 'https://www.figma.com/file/vlPcxp0FAYw66YKwpleSvA/Travel-UI?type=design&t=TKbnPSuiz1Q7jEY2-6',
   },
 ]
