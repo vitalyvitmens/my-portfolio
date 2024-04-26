@@ -168,17 +168,17 @@ export const MySkillData: Array<MySkillDataType> = [
   {
     title: 'Integration',
     image: IntegrationIcon,
-    link: 'https://github.com/vitalyvitmens/testing/tree/main/spec',
+    link: 'https://github.com/vitalyvitmens/unit-integration-contract-E2E/blob/main/spec/integration/Filter.spec.tsx',
   },
   {
     title: 'Contract',
     image: ContractIcon,
-    link: 'https://github.com/vitalyvitmens/testing/tree/main/spec',
+    link: 'https://github.com/vitalyvitmens/unit-integration-contract-E2E/blob/main/spec/integration/Contract.spec.tsx',
   },
   {
     title: 'E2E Test',
     image: E2EIcon,
-    link: 'https://github.com/vitalyvitmens/testing/tree/main/spec',
+    link: 'https://github.com/vitalyvitmens/core/blob/master/tests/courses-list.spec.ts',
   },
   {
     title: 'Webpack',
