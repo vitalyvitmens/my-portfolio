@@ -5,11 +5,20 @@ import CryptoInitialImg from './../assets/images/projects/crypto-initial.jpg'
 import MyPortfolioImg from './../assets/images/projects/my-portfolio.jpg'
 import TodoImg from './../assets/images/projects/todo.jpg'
 import SocialPostImg from './../assets/images/projects/social-post.jpg'
+import FitnessAssistantImg from './../assets/images/projects/fitness-assistant.jpg'
 import NewsBlogImg from './../assets/images/projects/news-blog.jpg'
 import NatureImg from './../assets/images/projects/nature.jpg'
 import CartImg from './../assets/images/projects/cart.jpg'
 
 export const ProjectData = [
+  {
+    title: 'Fitness Assistant',
+    image: FitnessAssistantImg,
+    description:
+      'React TS, Vite, Redux Toolkit, React Router 6, FSD, SCSS, Mantine, Firebase, Jest, CI/CD, Gitlab',
+    linkWeb: 'https://balusport.online/',
+    linkCode: 'https://gitlab.com/result4/fitness-assistant',
+  },
   {
     title: 'News Blog',
     image: NewsBlogImg,
