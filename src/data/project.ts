@@ -9,6 +9,7 @@ import FitnessAssistantImg from './../assets/images/projects/fitness-assistant.j
 import NewsBlogImg from './../assets/images/projects/news-blog.jpg'
 import NatureImg from './../assets/images/projects/nature.jpg'
 import CartImg from './../assets/images/projects/cart.jpg'
+import EventsNextImg from './../assets/images/projects/events-next.jpg'
 
 export const ProjectData = [
   {
@@ -100,5 +101,13 @@ export const ProjectData = [
       'React TS, CRA, Mobx, Mobx React Lite, Observer, Context, GH Pages, Module CSS',
     linkWeb: 'https://vitalyvitmens.github.io/react-ts-mobx-cart/',
     linkCode: 'https://github.com/vitalyvitmens/react-ts-mobx-cart',
+  },
+  {
+    title: 'Events Next',
+    image: EventsNextImg,
+    description:
+      'React TS, Next, Next Auth, React Query, TRPC, bcrypt, zod, React Hook Form, Prisma, Tailwind',
+    linkWeb: 'https://github.com/vitalyvitmens/events-next',
+    linkCode: 'https://github.com/vitalyvitmens/events-next',
   },
 ]
